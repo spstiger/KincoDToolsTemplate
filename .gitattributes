@@ -1,0 +1,8 @@
+# Verschlüsselte DTools-Projektdateien: nie Zeilenenden umwandeln oder mergen
+*.dpj binary
+*.whe binary
+*.lg  binary
+
+# Grafiken im DTools-Format (XML mit CRLF)
+*.vg  text eol=crlf
+*.bg  text eol=crlf
