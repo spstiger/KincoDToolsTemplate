@@ -1,7 +1,21 @@
+# Von Kinco DTools beim Öffnen, Speichern und Kompilieren erzeugt
+temp/
+tar/
+~backup/
+backup/
+kopieren/
+copy/
 *.pkgx
 *.bak
+*.dat~
+*.SIM~
+current_project_name_file.csv
+frw*.frp
+
+# Schreibt DTools beim Öffnen aus der eigenen Installation neu
+# (Standardvorlagen für neu platzierte Elemente, ohne Wirkung auf das HMI)
 PLCGEDefaultProperties.xml
 
-temp/
-kopieren/
-backup/
+# Windows
+Thumbs.db
+desktop.ini
